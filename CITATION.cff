@@ -1,11 +1,28 @@
 cff-version: 1.2.0
-title: "EMK Material Response Public"
-message: "Please cite the exact repository commit used."
+message: "If you use or discuss this software, please cite the repository and the exact release or commit."
+title: "EMK Materials Response: Lambda-Geometric Screening, Evidence Weighting, and Material Finality"
 type: software
-authors:
-  - family-names: "Kumar"
-    given-names: "Parveen"
-repository-code: "https://github.com/Parveen117/EMK-material-response-public"
-version: "0.1.0-public-snapshot"
+version: "0.1.0-rc1"
 date-released: "2026-07-13"
-abstract: "A curated exploratory implementation of a candidate lambda-geometric screening framework for non-equilibrium material response."
+authors:
+  - family-names: "Dabas"
+    given-names: "Monty"
+    orcid: "https://orcid.org/0009-0005-6948-209X"
+    affiliation: "Independent Researcher"
+abstract: >-
+  A bounded public research implementation of a lambda-geometric materials-response
+  framework covering single-material and lattice response, candidate screening,
+  evidence and source weighting, candidate audits, machine-readable material
+  certificates, append-only finality records, and standalone ledger verification.
+keywords:
+  - materials response
+  - non-equilibrium materials
+  - Onsager reciprocity
+  - lambda geometry
+  - material screening
+  - evidence weighting
+  - research certificates
+  - append-only ledger
+  - reproducible research
+repository-code: "https://github.com/Parveen117/EMK-material-response-public"
+url: "https://github.com/Parveen117/EMK-material-response-public"
