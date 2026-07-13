@@ -1,0 +1,11 @@
+name,family,temperature_K,electric_field,temperature_gradient,strain,defect_density,carrier_density,ion_mobility,symmetry_breaking,notes
+Si_reference,semiconductor_reference,300,0.05,0.05,0.02,0.01,0.30,0.05,0.02,Stable baseline reference.
+Bi2Te3_proxy,thermoelectric,360,0.18,0.55,0.07,0.08,0.78,0.10,0.16,Thermoelectric heat-charge coupling target.
+SnSe_proxy,thermoelectric_low_dimensional,520,0.16,0.62,0.12,0.12,0.62,0.15,0.25,Layered thermoelectric proxy.
+MoS2_monolayer_proxy,broken_symmetry_2D,300,0.35,0.20,0.15,0.06,0.55,0.08,0.55,Broken symmetry 2D transport target.
+WTe2_proxy,topological_nonreciprocal,280,0.42,0.25,0.10,0.07,0.72,0.06,0.62,Strong nonreciprocal proxy.
+oxide_ion_conductor_proxy,defective_ion_conductor,720,0.28,0.38,0.18,0.38,0.26,0.82,0.28,Defect active ion conductor proxy.
+GST_phase_change_proxy,phase_change,610,0.32,0.42,0.32,0.30,0.58,0.45,0.34,Phase change switching proxy.
+strained_SiGe_proxy,strained_semiconductor,330,0.16,0.15,0.28,0.07,0.48,0.08,0.18,Strain tuned semiconductor proxy.
+ferroelectric_proxy,ferroelectric,340,0.30,0.18,0.22,0.10,0.38,0.12,0.48,Broken inversion polar material proxy.
+mixed_ion_electron_proxy,mixed_transport,330,0.22,0.30,0.20,0.22,0.60,0.55,0.35,Mixed transport proxy.
