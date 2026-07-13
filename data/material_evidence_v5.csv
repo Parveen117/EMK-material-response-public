@@ -1,0 +1,14 @@
+material,property,value,unit,source_type,source,confidence,notes
+GST_phase_change_proxy,switching_behavior,high,qualitative,placeholder,known switching-family placeholder,0.70,Replace with exact source later.
+GST_phase_change_proxy,model_active_signal,medium,qualitative,model_inference,v4 active score is high,0.55,Model-derived placeholder evidence.
+oxide_ion_conductor_proxy,defect_mobility,high,qualitative,placeholder,known defect-transport-family placeholder,0.68,Replace with exact source later.
+oxide_ion_conductor_proxy,model_defect_signal,high,qualitative,model_inference,v4 defect score is high,0.60,Model-derived placeholder evidence.
+WTe2_proxy,directional_transport,high,qualitative,placeholder,known low-symmetry-family placeholder,0.65,Replace with exact source later.
+WTe2_proxy,symmetry_signal,high,proxy,candidate_csv,strong symmetry proxy in candidate table,0.50,Descriptor-level evidence.
+SnSe_proxy,heat_charge_coupling,high,qualitative,placeholder,known thermal-electric-family placeholder,0.70,Replace with exact source later.
+Bi2Te3_proxy,heat_charge_coupling,high,qualitative,placeholder,known thermal-electric-family placeholder,0.72,Replace with exact source later.
+MoS2_monolayer_proxy,broken_symmetry_2D,high,qualitative,placeholder,known 2D symmetry-family placeholder,0.65,Replace with exact source later.
+ferroelectric_proxy,polar_order,high,qualitative,placeholder,known polar-order-family placeholder,0.68,Replace with exact source later.
+mixed_ion_electron_proxy,mixed_transport,medium,qualitative,placeholder,known mixed-transport-family placeholder,0.58,Replace with exact source later.
+strained_SiGe_proxy,strain_response,medium,qualitative,placeholder,known strain-response-family placeholder,0.60,Replace with exact source later.
+Si_reference,stable_reference,high,qualitative,control,baseline control reference,0.80,Control material for sanity checks.
