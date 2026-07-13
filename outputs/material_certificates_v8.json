@@ -1,0 +1,258 @@
+[
+  {
+    "certificate_hash": "28e5588abb0ad2e5f64d7ddd30221484bba8f2711199cdd52c286b917740b63a",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_PROMISING_BUT_UNDER_EVIDENCED",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.2844933333333333,
+    "family": "phase_change",
+    "material": "GST_phase_change_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_symmetry_or_directional_transport_evidence",
+      "add_defect_mobility_or_defect_density_evidence",
+      "add_switching_or_phase_stability_evidence"
+    ],
+    "model_priority_score": 0.5660846456936991,
+    "next_action": "Prioritize literature/data collection before upgrading claims.",
+    "payload_hash": "f3f83cf0bb37c6faebd275ed9b6335a964fc4015dbb3fee1f78e0da50fae9de4",
+    "rank": 1,
+    "source_weighted_priority": 0.4985027307272113,
+    "strongest_signal": "nonreciprocal:0.5954",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage",
+      "high_model_gap_needs_external_support",
+      "phase_or_switching_risk",
+      "low_stability_score"
+    ]
+  },
+  {
+    "certificate_hash": "68e61b4b6efc95fc9611262c9cca9918d28cbd89b50e8cd722faa25cf088116d",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_PROMISING_BUT_UNDER_EVIDENCED",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.29133333333333333,
+    "family": "defective_ion_conductor",
+    "material": "oxide_ion_conductor_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_defect_mobility_or_defect_density_evidence",
+      "add_switching_or_phase_stability_evidence"
+    ],
+    "model_priority_score": 0.5461641751024955,
+    "next_action": "Prioritize literature/data collection before upgrading claims.",
+    "payload_hash": "0f2f0b5f8d317acb2e0c024f9bc46194a99d980df3757576b5e13ea4edc30ec3",
+    "rank": 2,
+    "source_weighted_priority": 0.4850047730778966,
+    "strongest_signal": "defect_activity:0.6414",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage",
+      "high_model_gap_needs_external_support",
+      "phase_or_switching_risk",
+      "defect_dominated_signal",
+      "low_stability_score"
+    ]
+  },
+  {
+    "certificate_hash": "75bda73a91c7d0da2d5c072e0b7197c966ee0737bfed385030a82be44d6ece9e",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.28683333333333333,
+    "family": "topological_nonreciprocal",
+    "material": "WTe2_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "add_symmetry_or_directional_transport_evidence"
+    ],
+    "model_priority_score": 0.5259721188986791,
+    "next_action": "Prioritize literature/data collection before upgrading claims.",
+    "payload_hash": "8c8e15c413ccbe5adcd7cd6c2130918e10e2240c06db47ad3da61b442f75c254",
+    "rank": 3,
+    "source_weighted_priority": 0.46857881036299615,
+    "strongest_signal": "nonreciprocal:0.6740",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage",
+      "high_model_gap_needs_external_support"
+    ]
+  },
+  {
+    "certificate_hash": "9f96d89e67a1eeefea64391138c4aae775eb5d9e436310e1a87b87927bc0b9ed",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.22306666666666664,
+    "family": "thermoelectric_low_dimensional",
+    "material": "SnSe_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_heat_charge_transport_metric"
+    ],
+    "model_priority_score": 0.4967434594279594,
+    "next_action": "Collect heat-charge transport evidence such as Seebeck-like or conductivity-like descriptors.",
+    "payload_hash": "3c19483ad578ab04e5ceaf0cdcdd5a5d7ee819ce4ae6e297dda9ecd1af08585b",
+    "rank": 4,
+    "source_weighted_priority": 0.43106102916524913,
+    "strongest_signal": "thermoelectric:0.6551",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage"
+    ]
+  },
+  {
+    "certificate_hash": "ad4cc08e281036212f04298655e5bf8baefc575e7ab1ecf13ca9c6d47d39f14b",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.19282666666666665,
+    "family": "mixed_transport",
+    "material": "mixed_ion_electron_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_heat_charge_transport_metric"
+    ],
+    "model_priority_score": 0.4967087065709064,
+    "next_action": "Collect heat-charge transport evidence such as Seebeck-like or conductivity-like descriptors.",
+    "payload_hash": "985f770aaa14dba9d10c24611f88a3fc5438fddc00dfb859cc3affce2c2e4192",
+    "rank": 5,
+    "source_weighted_priority": 0.42377701699388887,
+    "strongest_signal": "thermoelectric:0.5526",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage"
+    ]
+  },
+  {
+    "certificate_hash": "1e9da5b2b3a1fa04a1ef5b32c6970f9a863ee4f1b910875b3c6bde51913fe933",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.21046666666666664,
+    "family": "broken_symmetry_2D",
+    "material": "MoS2_monolayer_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_symmetry_or_directional_transport_evidence"
+    ],
+    "model_priority_score": 0.48308405814429545,
+    "next_action": "Search for directional transport, symmetry-breaking, or nonreciprocal response evidence.",
+    "payload_hash": "1ad284de15ec06f90a59d6a4674914f07f2f815ca0480c8a2942fff1a20afd04",
+    "rank": 6,
+    "source_weighted_priority": 0.41765588418966454,
+    "strongest_signal": "nonreciprocal:0.5843",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage",
+      "high_model_gap_needs_external_support"
+    ]
+  },
+  {
+    "certificate_hash": "6222baa5e8db17699812fd9f0192b421366a6f964500e4c12821db6107b161ce",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.21802666666666665,
+    "family": "ferroelectric",
+    "material": "ferroelectric_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source"
+    ],
+    "model_priority_score": 0.4629937242430412,
+    "next_action": "Search for directional transport, symmetry-breaking, or nonreciprocal response evidence.",
+    "payload_hash": "7323bca3ac084740dd8e6d51e4de6581d57666ef0b22a5a405b10740fcb38920",
+    "rank": 7,
+    "source_weighted_priority": 0.4042016304247113,
+    "strongest_signal": "nonreciprocal:0.5418",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage"
+    ]
+  },
+  {
+    "certificate_hash": "ca829bd3193900c9f21e3710113f615e393689d246fc56c5bfeacd94a129c7a6",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.22810666666666665,
+    "family": "thermoelectric",
+    "material": "Bi2Te3_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source",
+      "add_heat_charge_transport_metric"
+    ],
+    "model_priority_score": 0.44685706695002714,
+    "next_action": "Collect heat-charge transport evidence such as Seebeck-like or conductivity-like descriptors.",
+    "payload_hash": "072fe60b7695cca966dbe9b9ba442b240344be5f4909aea8edcf982ba7a70626",
+    "rank": 8,
+    "source_weighted_priority": 0.39435697088202065,
+    "strongest_signal": "thermoelectric:0.7106",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage"
+    ]
+  },
+  {
+    "certificate_hash": "0e5e0bb6e09a178fdea870799ffc185a42ec2b20ccc98e30c8544673437edc8d",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record only; external evidence insufficient for empirical claim.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.19786666666666666,
+    "family": "strained_semiconductor",
+    "material": "strained_SiGe_proxy",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows",
+      "replace_placeholder_or_model_inference_with_external_source"
+    ],
+    "model_priority_score": 0.3663331204243636,
+    "next_action": "Collect heat-charge transport evidence such as Seebeck-like or conductivity-like descriptors.",
+    "payload_hash": "ba296a802fdc892a90c78828a26b6a4e2f4af0aadc93fea50c96dd4426019cd9",
+    "rank": 9,
+    "source_weighted_priority": 0.3259011715225163,
+    "strongest_signal": "thermoelectric:0.5038",
+    "warning_flags": [
+      "weak_source_weighted_evidence",
+      "low_evidence_coverage"
+    ]
+  },
+  {
+    "certificate_hash": "5b4bd012fa9a50776d29441df96a5270d6466824b1e25f46e8bb6836f02f23bd",
+    "certificate_version": "EMK_MATERIAL_CERTIFICATE_V8",
+    "claim_boundary": "Computational screening record with preliminary evidence support; still requires domain validation.",
+    "classification": "MATERIAL_EARLY_STAGE_RESEARCH_RECORD",
+    "created_at_utc": "2026-07-13T16:24:47.594779+00:00",
+    "evidence_strength": 0.49594666666666676,
+    "family": "semiconductor_reference",
+    "material": "Si_reference",
+    "missing_evidence": [
+      "add_at_least_three_material_specific_evidence_rows"
+    ],
+    "model_priority_score": 0.21909159398082811,
+    "next_action": "Collect heat-charge transport evidence such as Seebeck-like or conductivity-like descriptors.",
+    "payload_hash": "5d8524adc0f8b2f35fb1bf5ad67a2d76d84bc9993d358eb0da113224c7c8a16f",
+    "rank": 10,
+    "source_weighted_priority": 0.28553681142542936,
+    "strongest_signal": "thermoelectric:0.4133",
+    "warning_flags": [
+      "low_evidence_coverage"
+    ]
+  }
+]
