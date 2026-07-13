@@ -31,14 +31,12 @@ temperature_K
 electric_field
 temperature_gradient
 strain
-def_density
+defect_density
 carrier_density
 ion_mobility
 symmetry_breaking
 notes
 ```
-
-The implementation expects `defect_density`; the abbreviated `def_density` form above is not accepted. This explicit note exists because CSV headers enjoy causing failures disproportionate to their intellectual importance.
 
 ## Descriptor boundary
 
