@@ -1,91 +1,109 @@
-# EMK Material Response Public
+# EMK Materials Response
 
-A curated, reproducible research snapshot for testing a candidate lambda-geometric description of non-equilibrium material response.
+## Public research snapshot
 
-## Status
+This repository is the bounded public release of the existing private `EMK-Materials-Response` research stack.
 
-This repository contains an exploratory computational framework. It does **not** establish a validated physical law, a certified material predictor, or a fabrication-ready device design. The current equations and thresholds are hypotheses implemented as transparent code so they can be inspected, reproduced, challenged, and replaced by experimental calibration.
+It contains the materials-response chain from v1 through v9:
 
-## Research question
+1. single-material lambda response
+2. lattice Onsager response
+3. editable material screening
+4. CSV-driven screening
+5. evidence-weighted screening
+6. source-weighted evidence
+7. candidate audit reporting
+8. material certificates and append-only finality records
+9. material-ledger verification
 
-Can a compact lambda-state representation help organize departures from near-equilibrium reciprocal transport in driven materials?
+## Working research question
 
-The framework tracks four effective response coordinates,
+Can a compact lambda-geometric state help organize departures from near-equilibrium reciprocal transport in driven materials?
+
+The framework tracks four effective coordinates:
 
 ```text
 lambda_p, lambda_v, lambda_s, lambda_t
 ```
 
-and computes a bounded candidate curvature score together with an Onsager-style cross-response gap,
+and evaluates a candidate lambda-curvature together with an Onsager-style reciprocity gap:
 
 ```text
-ReciprocityGap = |L_qe - L_eq|.
+ReciprocityGap = |L_qe - L_eq|
 ```
 
-Near equilibrium, the working expectation is that both quantities remain small. Under stronger drive, symmetry breaking, strain, or defect loading, the model permits a larger gap. This is a screening hypothesis, not an experimental conclusion.
+Near equilibrium, the working expectation is that both quantities remain small. Under stronger drive, symmetry breaking, strain, defect loading, or lattice mismatch, the framework permits larger bounded response indicators.
 
-## Public-release boundary
+These are screening hypotheses implemented as transparent code. They are not experimentally established material laws.
 
-Included here:
+## Included public stack
 
-- transparent reference equations;
-- synthetic demonstration inputs;
-- deterministic outputs;
-- reproducibility tests;
-- explicit assumptions and falsification conditions.
+```text
+src/emk_lambda_material_response_v1.py
+src/emk_lattice_onsager_v2.py
+src/emk_material_screening_v3.py
+src/emk_csv_screening_v4.py
+src/emk_evidence_weighted_screening_v5.py
+src/emk_source_weighted_evidence_v6.py
+src/emk_audit_report_v7.py
+src/emk_material_certificate_v8.py
+src/emk_verify_material_ledger_v9.py
+```
 
-Excluded from this public snapshot:
+The corresponding documentation, public input tables, notebooks, demonstration outputs, audit summaries, certificates, and ledger records are added as part of this bounded release.
 
-- fabrication dimensions and device architecture;
-- unpublished laboratory mappings;
-- patent drafting material;
-- private evidence ledgers;
-- proprietary calibration data.
+## Explicit exclusion boundary
 
-## Quick start
+This snapshot deliberately excludes later private layers involving:
+
+- device-material bridges
+- device-role assignment
+- experiment planning
+- one-device closure loops
+- fabrication or hardware-specific mappings
+- instrument-control and instrument-grade closure
+- unpublished laboratory mappings
+- patent drafting material
+- proprietary calibration records
+
+The cutoff is intentional: public materials science through v9, private device-facing development from v10 onward.
+
+## Scientific honesty boundary
+
+This repository is not:
+
+- density-functional theory
+- molecular dynamics
+- a validated transport solver
+- a substitute for traceable laboratory measurements
+- proof of a new material or device effect
+
+Material names in demonstration files may be proxies used to exercise the computational pipeline. Scores, labels, certificates, and ledger states should be treated as reproducible computational outputs, not measured properties of real samples.
+
+## Run from the repository root
 
 ```bash
-python -m src.emk_lambda_material_response_v1
-python -m unittest discover -s tests -v
+python src/emk_lambda_material_response_v1.py
+python src/emk_lattice_onsager_v2.py
+python src/emk_material_screening_v3.py
+python src/emk_csv_screening_v4.py
+python src/emk_evidence_weighted_screening_v5.py
+python src/emk_source_weighted_evidence_v6.py
+python src/emk_audit_report_v7.py
+python src/emk_material_certificate_v8.py
+python src/emk_verify_material_ledger_v9.py
 ```
 
-The demo writes:
+## Falsification discipline
 
-```text
-outputs/material_response_v1_demo.csv
-```
+The framework should be rejected or materially revised if calibrated, held-out testing shows that:
 
-## Interpretation discipline
-
-The included material names are proxies used to exercise the code path. Their scores must not be interpreted as measured properties of real samples. A public claim becomes scientifically meaningful only after preregistered calibration and held-out comparison against traceable measurements.
-
-## Falsification criteria
-
-The candidate framework should be rejected or materially revised if, after calibration:
-
-1. the curvature score does not improve held-out prediction over simpler baselines;
-2. the reciprocity-gap estimate fails to track independently measured cross-response asymmetry;
-3. classifications are unstable under reasonable uncertainty in the inputs;
-4. apparent performance disappears under control subtraction or leakage correction;
-5. model thresholds require material-by-material tuning without transferable structure.
-
-## Repository map
-
-```text
-src/      reference implementation
-tests/    deterministic unit tests
-docs/     assumptions, limitations, and release notes
-outputs/  generated demonstration artifacts
-```
-
-## Relationship to the wider research programme
-
-This repository is the public materials-response layer. It is intentionally separated from private device engineering and patent repositories. Its purpose is narrower: expose a falsifiable computational object that independent readers can run and criticize.
-
-## Citation
-
-See `CITATION.cff`. Until a versioned archival release is issued, cite the repository URL and exact commit hash used.
+1. lambda-curvature does not improve prediction over simpler baselines;
+2. reciprocity-gap estimates do not track independently measured cross-response asymmetry;
+3. classifications are unstable under realistic input uncertainty;
+4. apparent performance disappears after control subtraction or leakage correction;
+5. thresholds require material-by-material tuning without transferable structure.
 
 ## Rights and reuse
 
-No open-source license has yet been granted. The repository is publicly inspectable, but reuse rights remain reserved until an explicit license file is added.
+No open-source license is granted unless an explicit `LICENSE` file is added. Public visibility alone does not grant reuse rights.
