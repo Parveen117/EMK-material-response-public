@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "EMK Material Response Public"
+message: "Please cite the exact repository commit used."
+type: software
+authors:
+  - family-names: "Kumar"
+    given-names: "Parveen"
+repository-code: "https://github.com/Parveen117/EMK-material-response-public"
+version: "0.1.0-public-snapshot"
+date-released: "2026-07-13"
+abstract: "A curated exploratory implementation of a candidate lambda-geometric screening framework for non-equilibrium material response."
