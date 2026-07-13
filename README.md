@@ -1,5 +1,11 @@
 # EMK Materials Response
 
+> **Patent status.** This repository is associated with inventor-controlled patent filings and related intellectual-property rights. Publication does not grant any patent license. See [`PATENT_NOTICE.md`](PATENT_NOTICE.md).
+>
+> **Copyright and license boundary.** This is a controlled public technical inspection and citation release, not an unrestricted open-source grant. All rights are reserved unless a separate written license states otherwise. See [`LICENSE`](LICENSE) and [`COPYRIGHT_NOTICE.md`](COPYRIGHT_NOTICE.md).
+>
+> **Public release boundary.** This repository is a bounded public materials-response release and does not reproduce the complete private filing, device, laboratory, hardware, calibration, or internal development record. See [`docs/PUBLIC_RELEASE_BOUNDARY.md`](docs/PUBLIC_RELEASE_BOUNDARY.md).
+
 ## Public research snapshot
 
 This repository is the bounded public release of the existing private `EMK-Materials-Response` research stack.
@@ -92,6 +98,7 @@ python src/emk_source_weighted_evidence_v6.py
 python src/emk_audit_report_v7.py
 python src/emk_material_certificate_v8.py
 python src/emk_verify_material_ledger_v9.py
+python tests/run_material_tests.py
 ```
 
 ## Falsification discipline
@@ -104,6 +111,18 @@ The framework should be rejected or materially revised if calibrated, held-out t
 4. apparent performance disappears after control subtraction or leakage correction;
 5. thresholds require material-by-material tuning without transferable structure.
 
+## Documentation
+
+- [`docs/PUBLIC_RELEASE_BOUNDARY.md`](docs/PUBLIC_RELEASE_BOUNDARY.md) — public/private release boundary.
+- [`PATENT_NOTICE.md`](PATENT_NOTICE.md) — patent-rights notice.
+- [`COPYRIGHT_NOTICE.md`](COPYRIGHT_NOTICE.md) — copyright ownership and restriction notice.
+- [`LICENSE`](LICENSE) — controlled inspection and citation license boundary.
+- [`CITATION.cff`](CITATION.cff) — citation metadata.
+
+## Citation
+
+Dabas, M. (2026). *EMK Materials Response: Lambda-Geometric Screening, Evidence Weighting, and Material Finality* (Version 0.1.0-rc1). GitHub repository. Cite the exact release tag or commit used.
+
 ## Rights and reuse
 
-No open-source license is granted unless an explicit `LICENSE` file is added. Public visibility alone does not grant reuse rights.
+Public visibility permits inspection and citation only under the repository notices. It does not grant patent, commercial, redistribution, modification, sublicensing, or production-use rights.
