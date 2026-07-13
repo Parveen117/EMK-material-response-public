@@ -1,0 +1,47 @@
+name: Materials v1-v9
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run no-dependency regression suite
+        run: python tests/run_material_tests.py
+
+      - name: Generate public demonstration artifacts
+        if: matrix.python-version == '3.12'
+        run: |
+          python src/emk_lambda_material_response_v1.py
+          python src/emk_lattice_onsager_v2.py
+          python src/emk_material_screening_v3.py
+          python src/emk_csv_screening_v4.py
+          python src/emk_evidence_weighted_screening_v5.py
+          python src/emk_source_weighted_evidence_v6.py
+          python src/emk_audit_report_v7.py
+          rm -f outputs/material_finality_ledger_v8.jsonl
+          python src/emk_material_certificate_v8.py
+          python src/emk_verify_material_ledger_v9.py --json
+
+      - name: Upload generated artifacts
+        if: matrix.python-version == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: emk-materials-v1-v9-outputs
+          path: outputs/
